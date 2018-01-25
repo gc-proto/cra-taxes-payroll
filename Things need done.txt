@@ -28,6 +28,8 @@ THINGS TO DO
 
 -Get everybody comfortable jumping in and changing content, fixing links, adjusting pages, etc.  Get optimizing!
 
+-When time allows, update the prototype so that all CSS and JS files are drawn from within the prototype, instead of being pulled in from Canada.ca.  This will ensure the prototype doesn't accidentally evolve later on.
+
 -What else?  Add to the list as necessary
 
 ==========================
