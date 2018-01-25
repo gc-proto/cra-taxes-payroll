@@ -1,0 +1,43 @@
+
+==========================
+
+THINGS TO DO
+
+==========================
+
+-Do we want to add the GST calculator page to the prototype?
+    http://www.cra-arc.gc.ca/tx/bsnss/tpcs/gst-tps/rts-eng.html
+
+-Do we want to add the specific situations page to the prototype?
+    https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/specific-sectors/gst-hst-specific-situations.html
+
+-Add in the orphan pages identified in Miguel's IA diagram
+
+-Identify the 3 pages marked on Miguel's IA diagram, the ones deeper below the "send your deduction payment" page set.  Add them into the prototype if necessary
+
+-Got to update a few pages according to CRA's comments.  Miguel has details.
+
+-Hook up intra-prototype links within the main body text and "most requested" boxes:  continue searching all pages of the prototype for any links that should be pointing to other pages within the prototype, instead of pointing back to Canada.ca (which would mean that test participants end up wandering out of the sandbox during testing)
+
+-Confirm that any/all wizards in the prototype are working correctly and using the right version (FieldFlow I think
+
+-Figure out ways to identify any routes that test participants may follow as they try to solve the tasks / Ensure those routes work in our prototype.  
+  -Do a dry run through all tasks, as through we were participants.  Wander/explore and identify any links that people might click that take them out of our GitHub sandbox.  We'll need to fix those.
+  -Look through the presentation on google
+  -Where else
+
+-Get everybody comfortable jumping in and changing content, fixing links, adjusting pages, etc.  Get optimizing!
+
+-What else?  Add to the list as necessary
+
+==========================
+
+
+
+
+
+
+
+
+
+
