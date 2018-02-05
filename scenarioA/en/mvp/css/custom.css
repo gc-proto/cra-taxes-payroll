@@ -92,7 +92,19 @@ p, ul, li {
 
 }
 
+td {
+	
+	font-size: 19px !important;
+	font-family: 'Open Sans', sans-serif; !important;
+	
+}
 
+caption, th {
+	
+	font-size: 17px !important;
+	font-family: 'Open Sans', sans-serif; !important;
+	
+}
 
 /* controls bullet spacing */
 
