@@ -12,6 +12,7 @@
 <!--[if gte IE 9 | !IE ]><!-->
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/custom.css">
 <!--<![endif]-->
 <!--[if lt IE 9]>
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
@@ -54,7 +55,7 @@
 </section>
 <div class="row">
 <div class="brand col-xs-8 col-sm-9 col-md-6">
-	<a href="https://gc-proto.github.io/tax-filing/en/mvp/home-en.html">
+	<a href="../../home-en.html">
 		<object type="image/svg+xml" tabindex="-1" data="https://www.canada.ca/etc/designs/canada/wet-boew/assets/sig-blk-en.svg"></object>
 		<span class="wb-inv">Government of Canada</span>
 	</a>
@@ -121,9 +122,9 @@
 </div>
 </nav>
 <nav role="navigation" id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href='../../index-en.html'>Home</a></li>
-<li>...</li>
-<li><a href='../../taxes/gsthst/index-en.html'>GST/HST</a></li>
+<li class="cust-breadcrumb"><a href='../../index-en.html'>Home</a></li>
+<li class="cust-breadcrumb">...</li>
+<li class="cust-breadcrumb"><a href='../../taxes/gsthst/index-en.html'>GST/HST</a></li>
 </ol></div></div></nav>
 
 </header>
@@ -142,38 +143,38 @@ GST/HST and place of supply rules</h1>
 
 
 
-        <div><div class="mwsbodytext text parbase section">
+        <div><div class="mwsbodytext text parbase section col-md-8">
 
 
 
         <h2>On this page</h2>
- <p><a href="#supplyrules">Find out about the&nbsp;different place of supply rules</a><br /> <a href="#selfassess">Find out if&nbsp;you have&nbsp;to pay the provincial part of the HST for property and services brought into a participating province</a><br /> <a href="#recover">Find out if you can&nbsp;recover&nbsp;the provincial part of the HST for&nbsp;property and services brought into a non-participating province or into a participating province with a lower HST rate</a></p>
+ <ul>
+	 <li><a href="#supplyrules">Find out about the&nbsp;different place of supply rules</a></li>
+	 <li><a href="#selfassess">Find out if&nbsp;you have&nbsp;to pay the provincial part of the HST for property and services brought into a participating province</a></li>
+	 <li> <a href="#recover">Find out if you can&nbsp;recover&nbsp;the provincial part of the HST for&nbsp;property and services brought into a non-participating province or into a participating province with a lower HST rate</a></li>
+ </ul>
 
 
 
-</div>
-<div class="mwshorizontalrule parbase section"><hr/>
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
         <h2 id="supplyrules">Find out about the&nbsp;different place of supply rules</h2>
-	
+
 
 	<p>When you supply a taxable product or service, the tax rate you charge your customer depends on where the transaction happens. This is called “place of supply”.</p>
 	<ul>
-	<li>For customers in a non-participating province, charge the <strong>GST</strong>.</li> 
-	<li>For customers in a participating province, charge the <strong>HST</strong>.</li>
+	<li class="bullet">For customers in a non-participating province, charge the <strong>GST</strong>.</li>
+	<li class="bullet">For customers in a <a class="wb-lbx" title="jan-tab" href="#jan2008">participating province</a>, charge the <strong>HST</strong>.</li>
 	</ul>
 	<p><div class="mwsgeneric-base-html parbase section">
-    <a class="wb-lbx" title="jan-tab" href="#jan2008">See participating provinces</a>
+
                                 <section id="jan2008" class="mfp-hide modal-dialog modal-content overlay-def">
-                                                <header class="modal-header">
+                                                <header class="modal-header" style="background-color: #2e5274 !important;">
                                                                 <h2 class="modal-title">Participating province</h2>
                                                 </header>
 
-<div class="modal-body" style="background-color: white !important;">	
+<div class="modal-body" style="background-color: white !important;">
 <p>A participating province is one that has harmonized its provincial sales tax with the GST to implement the harmonized sales tax (HST).</p>
 
 <p>Participating provinces include:</p>
@@ -185,20 +186,21 @@ GST/HST and place of supply rules</h1>
 <li>Prince Edward Island</li>
 </ul>
 
-<p>They do not include Nova Scotia offshore area or the Newfoundland offshore area except to the extent that offshore activities, as defined in subsection 123(1) of the Excise Tax Act, are carried on in that area.</p> 
+<p>They do not include Nova Scotia offshore area or the Newfoundland offshore area except to the extent that offshore activities, as defined in subsection 123(1) of the Excise Tax Act, are carried on in that area.</p>
 </div>
 </section>
 	</div></p>
-	
-	
-	
+
+
+
 <p>Specific rules apply to determine whether a supply&nbsp;is made in Canada and whether it's made&nbsp;in or outside of a participating province. The rate of tax to charge for a supply is determined by the province or territory in which the supply is made, which is referred to as the place of supply.</p>
 <p>Use the following sections to determine which place of supply rule applies. Once you know where the supply is made, you must determine <a href="./charge-1-en.html#rates">which GST/HST rate to charge</a>.</p>
 
 
-
+<p><br></p>
 
 </div>
+
 <div class="mwstabbed-interface-html mwstemplate-html section">
 
 
@@ -211,22 +213,22 @@ GST/HST and place of supply rules</h1>
 
 
     <details id="summary-details0" open='open'>
-        <summary>Goods</summary>
-        <div class="parsys"><div class="mwsbodytext text parbase section">
 
+        <summary>Goods</summary>
+        <div class="parsys">
 
 
         <h3 id="goods">Goods (tangible personal property)</h3>
 <p id="Tab1">For the purposes of the place of supply rules that determine whether a supply is made in a province:</p>
 <ul>
-<li>a floating home and a mobile home that is not affixed to land are each deemed to be tangible personal property and not real property</li>
-<li>where an agreement for a supply of tangible personal property is entered into but the property is never delivered to the recipient, the property is deemed to have been delivered where the property was to be delivered, as the case may be, under the terms of the agreement</li>
+<li class="bullet">a floating home and a mobile home that is not affixed to land are each deemed to be tangible personal property and not real property</li>
+<li class="bullet">where an agreement for a supply of tangible personal property is entered into but the property is never delivered to the recipient, the property is deemed to have been delivered where the property was to be delivered, as the case may be, under the terms of the agreement</li>
 </ul>
 
 
 
 
-</div>
+
 <div class="mwsaccordion-html section">
 
 
@@ -236,7 +238,7 @@ GST/HST and place of supply rules</h1>
 
     <details>
         <summary>Sale of goods</summary>
-        <div class="mwsbodytext text parbase section">
+
 
 
 
@@ -244,14 +246,14 @@ GST/HST and place of supply rules</h1>
 <p>There is no change to the current place of supply rules for supplies of goods by way of sale. A supply by way of sale of goods is deemed to be made in a province if the supplier delivers the property or makes it available in the province to the recipient of the supply.</p>
 <p>The application of this place of supply rule is generally based on the province in which legal delivery of the goods to the recipient occurs. However, for purposes of the rule, property is also deemed to be delivered in a particular province, and not in any other province, if the supplier <strong>either</strong>:</p>
 <ul>
-<li>ships the property to a destination in the particular province that is specified in the contract for carriage of the property or transfers possession of the property to a common <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#carrier">carrier</a> or consignee that the supplier has retained on behalf of the recipient to ship the property to such a destination</li>
-<li>sends the property by mail or courier to an address in the particular province</li>
+<li class="bullet">ships the property to a destination in the particular province that is specified in the contract for carriage of the property or transfers possession of the property to a common <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#carrier">carrier</a> or consignee that the supplier has retained on behalf of the recipient to ship the property to such a destination</li>
+<li class="bullet">sends the property by mail or courier to an address in the particular province</li>
 </ul>
 
 
 
 
-</div>
+
 <div class="mwsgeneric-base-html parbase section">
 
 
@@ -277,8 +279,7 @@ GST/HST and place of supply rules</h1>
 </div>
 
 
-</div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -304,7 +305,6 @@ GST/HST and place of supply rules</h1>
 
     <details>
         <summary>Delivery of goods on exercise of option to purchase</summary>
-        <div class="mwsbodytext text parbase section">
 
 
 
@@ -315,7 +315,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
+
 
 
     </details>
@@ -333,7 +333,7 @@ GST/HST and place of supply rules</h1>
 
     <details>
         <summary>Sale of most vehicles</summary>
-        <div class="mwsbodytext text parbase section">
+
 
 
 
@@ -342,7 +342,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
+
 
 
     </details>
@@ -360,7 +360,7 @@ GST/HST and place of supply rules</h1>
 
     <details>
         <summary>Rentals and leases-three months or less</summary>
-        <div class="mwsbodytext text parbase section">
+
 
 
 
@@ -368,14 +368,13 @@ GST/HST and place of supply rules</h1>
 <p>A supply of property otherwise than by way of sale under an arrangement under which continuous possession or use of the property is provided for a period of no more than three months is deemed to be made in the province in which the supplier delivers the property or makes it available to the recipient of the supply.</p>
 <p>The application of this place of supply rule is generally based on the province in which legal delivery of the goods to the recipient occurs. However, for purposes of this rule, the property is also deemed to be delivered in a particular province, and not in any other province, if the supplier <strong>either</strong>:</p>
 <ul>
-<li>ships the property to a destination in the particular province that is specified in the contract for carriage of the property or transfers possession of the property to a common carrier or consignee that the supplier has retained on behalf of the recipient to ship the property to such a destination</li>
-<li>sends the property by mail or courier to an address in the particular province</li>
+<li class="bullet">ships the property to a destination in the particular province that is specified in the contract for carriage of the property or transfers possession of the property to a common carrier or consignee that the supplier has retained on behalf of the recipient to ship the property to such a destination</li>
+<li class="bullet">sends the property by mail or courier to an address in the particular province</li>
 </ul>
 
 
 
 
-</div>
 <div class="mwsgeneric-base-html parbase section">
 
 
@@ -412,7 +411,7 @@ GST/HST and place of supply rules</h1>
 
     <details>
         <summary>Rentals and leases-more than three months</summary>
-        <div class="mwsbodytext text parbase section">
+
 
 
 
@@ -421,16 +420,16 @@ GST/HST and place of supply rules</h1>
 <p>Furthermore, the supply for each lease interval is deemed to be made on the earliest of the first day of the lease interval, the day on which the lease payment attributable to that interval becomes due and the day that payment is made.</p>
 <p>A supply of goods (other than a specified motor vehicle) by way of lease, license or similar arrangement for more than three months is deemed to be made in a province if the ordinary location of the property, as determined at the time the supply is made is in the province. A separate supply of the property is deemed to be made for each lease interval on the earliest of the following days:</p>
 <ul>
-<li>the first day of the lease interval</li>
-<li>the day on which the lease payment attributable to that interval becomes due</li>
-<li>the day that payment is made</li>
+<li class="bullet">the first day of the lease interval</li>
+<li class="bullet">the day on which the lease payment attributable to that interval becomes due</li>
+<li class="bullet">the day that payment is made</li>
 </ul>
 <p>For purposes of the place of supply rules, the ordinary location of property is deemed to be the location where the supplier and the recipient mutually agree that the ordinary location of the property is to be at a particular point in time. In other words, the mutual agreement of the supplier and recipient will be determinative even where the property is actually located at a different place at the relevant time than what had been agreed upon. The mutual agreement of the parties may change from time to time. Therefore, even if the original written agreement for a supply of property specified that the property will be located in a particular province, the parties may mutually agree subsequent to the signing of the contract that the property is to be moved at a particular time to a location in another province in which case the latter location will be the ordinary location of the property at that particular time.</p>
 
 
 
 
-</div>
+
 <div class="mwsgeneric-base-html parbase section">
 
 
@@ -473,7 +472,7 @@ GST/HST and place of supply rules</h1>
 
     <details id="summary-details1">
         <summary>Real property</summary>
-        <div class="parsys"><div class="mwsbodytext text parbase section">
+        <div class="parsys">
 
 
 
@@ -483,7 +482,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
+
 <div class="mwstext section"><section class="mfp-hide modal-dialog modal-content overlay-def" id="examplereal">
  <header class="modal-header">
   <h4 class="modal-title">Example for supply of real property</h4>
@@ -513,7 +512,7 @@ GST/HST and place of supply rules</h1>
 
 
 </div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -524,7 +523,6 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
 <div class="mwstext section"><section class="mfp-hide modal-dialog modal-content overlay-def" id="examplerealpart">
  <header class="modal-header">
   <h5 class="modal-title">Example for supply of real property partly in a province</h5>
@@ -552,22 +550,21 @@ GST/HST and place of supply rules</h1>
 
 
 </div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
         <h4>Lease intervals – Deemed supplies of real property</h4>
 <p>Where a supply of property is made by way of lease, license or similar arrangement for consideration that is attributable to a period (referred to as a &quot;lease interval&quot;) that is the whole or a part of the period during which possession or use of the property is provided under the arrangement, a separate supply of the property for separate consideration is deemed to be made by the supplier and received by the recipient for each lease interval. The supply for each lease interval is deemed to be made on the earliest of:</p>
 <ul>
-<li>the first day of the lease interval</li>
-<li>the day on which the lease payment attributable to that interval becomes due</li>
-<li>the day that payment is made</li>
+<li class="bullet">the first day of the lease interval</li>
+<li class="bullet">the day on which the lease payment attributable to that interval becomes due</li>
+<li class="bullet">the day that payment is made</li>
 </ul>
 
 
 
 
-</div>
 <div class="mwsgeneric-base-html parbase section">
 
 
@@ -608,23 +605,22 @@ GST/HST and place of supply rules</h1>
 
     <details id="summary-details2">
         <summary>Intangible personal property</summary>
-        <div class="parsys"><div class="mwsbodytext text parbase section">
+        <div class="parsys">
 
 
 
         <h3 id="ipp">Intangible personal property</h3>
  <p id="Tab3">Generally, there are four general place of supply rules that apply to supplies of intangible personal property (IPP). These general rules do not apply to supplies of IPP in certain cases where specific place of supply rules apply.</p>  <ul>
- <li><a href="#rule1ipp">Rule 1</a></li>
- <li><a href="#rule2ipp">Rule 2</a></li>
- <li><a href="#rule3ipp">Rule 3</a></li>
- <li><a href="#rule4ipp">Rule 4</a></li>
- <li><a href="#specialrulesipp">Special rules for certain intangible personal property</a></li>
+ <li class="bullet"><a href="#rule1ipp">Rule 1</a></li>
+ <li class="bullet"><a href="#rule2ipp">Rule 2</a></li>
+ <li class="bullet"><a href="#rule3ipp">Rule 3</a></li>
+ <li class="bullet"><a href="#rule4ipp">Rule 4</a></li>
+ <li class="bullet"><a href="#specialrulesipp">Special rules for certain intangible personal property</a></li>
 </ul>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -634,7 +630,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
+
 <div class="mwstext section"><section class="mfp-hide modal-dialog modal-content overlay-def" id="examplerule1">
  <header class="modal-header">
   <h5 class="modal-title">Example - Intangible personal property that can only be used primarily in non-participating provinces</h5>
@@ -662,7 +658,7 @@ GST/HST and place of supply rules</h1>
 
 
 </div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -674,7 +670,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
+
 <div class="mwsgeneric-base-html parbase section">
 
 
@@ -712,7 +708,7 @@ GST/HST and place of supply rules</h1>
   <p>The Canadian rights in respect of the franchise can only be used primarily in participating provinces and an equal or greater proportion of the Canadian rights cannot be used in a participating province other than Ontario. Therefore, the supply of the intangible personal property is made in Ontario and subject to HST at a rate of 13%</p>
  </div>
 </section></div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -721,15 +717,15 @@ GST/HST and place of supply rules</h1>
 <h5>Consideration of $300 or less</h5>
 <p>If the value of the consideration for the supply of the IPP is $300 or less, the supply is made in a province if:</p>
 <ul>
-<li>the supply is made through a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#permanent">permanent establishment</a> of the supplier located in the province in the presence of an individual who is the recipient, or through a vending machine situated in the province</li>
-<li>the IPP can be used in the province</li>
+<li class="bullet">the supply is made through a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#permanent">permanent establishment</a> of the supplier located in the province in the presence of an individual who is the recipient, or through a vending machine situated in the province</li>
+<li class="bullet">the IPP can be used in the province</li>
 </ul>
 <h5>Address in Canada obtained</h5>
 <p>If the preceding rule does not deem the supply to be made in a province, the supply may be deemed to be made in a participating province if the supplier obtains an address of the recipient in the province in the normal course of business and if the IPP can be used in the province. The address can be:</p>
 <ul>
-<li>a home or a business address in Canada of the recipient</li>
-<li>if more than one such address is obtained, the home or business address in Canada of the recipient that is most closely connected with the supply</li>
-<li>if the supplier does not obtain a home or business address in Canada of the recipient, any other address in Canada of the recipient that is most closely connected with the supply</li>
+<li class="bullet">a home or a business address in Canada of the recipient</li>
+<li class="bullet">if more than one such address is obtained, the home or business address in Canada of the recipient that is most closely connected with the supply</li>
+<li class="bullet">if the supplier does not obtain a home or business address in Canada of the recipient, any other address in Canada of the recipient that is most closely connected with the supply</li>
 </ul>
 <h5>Highest tax rate</h5>
 <p>If the preceding rules do not deem the supply to be made in a province, the supply is made in the participating province for which the tax rate is the highest among the provinces in which the property can be used.</p>
@@ -737,9 +733,9 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsgeneric-base-html parbase section">
 
+<div class="mwsgeneric-base-html parbase section">
+<!--removed parbase section to here -->
 
 
     <a class="wb-lbx" href="#examplerule3a">See examples – Rule 3 – When the province in which the greatest proportion of the Canadian rights can be used cannot be determined</a>
@@ -831,8 +827,8 @@ GST/HST and place of supply rules</h1>
         <h4 id="rule4ipp">Rule 4</h4>
 <p>If the supply is not considered to be made in a single participating province under Rule 3, because the highest tax rates for two or more of the participating provinces (each of which is referred to here as a &quot;specified province&quot;) are the same, the supply is made in one of&nbsp;the following province:</p>
 <ul>
-<li>the specified province among those provinces where the business address of the supplier that is most closely connected with the supply is located</li>
-<li>if such an address is not located in one of the specified provinces, in the specified province that is closest in proximity, determined in any reasonable manner, to such an address</li>
+<li class="bullet">the specified province among those provinces where the business address of the supplier that is most closely connected with the supply is located</li>
+<li class="bullet">if such an address is not located in one of the specified provinces, in the specified province that is closest in proximity, determined in any reasonable manner, to such an address</li>
 </ul>
 
 
@@ -1236,11 +1232,11 @@ GST/HST and place of supply rules</h1>
 
         <h3 id="services">Services</h3>
  <p id="Tab4">Generally, there are four general place of supply rules that apply to supplies of services. These general rules do not apply to supplies of services in certain cases where specific place of supply rules apply.</p>  <ul>
- <li><a href="#servicesrule1">Rule 1</a></li>
- <li><a href="#servicesrule2">Rule 2</a></li>
- <li><a href="#servicesrule3">Rule 3</a></li>
- <li><a href="#servicesrule4">Rule 4</a></li>
- <li><a href="#certainservices">Special rules for certain services</a></li>
+ <li class="bullet"><a href="#servicesrule1">Rule 1</a></li>
+ <li class="bullet"><a href="#servicesrule2">Rule 2</a></li>
+ <li class="bullet"><a href="#servicesrule3">Rule 3</a></li>
+ <li class="bullet"><a href="#servicesrule4">Rule 4</a></li>
+ <li class="bullet"><a href="#certainservices">Special rules for certain services</a></li>
 </ul>
 
 
@@ -1253,9 +1249,9 @@ GST/HST and place of supply rules</h1>
         <h4 id="servicesrule1">Rule 1</h4>
 <p>The supply of a service is made in a province and in the normal course of business, the supplier obtains a particular address of the recipient that is:</p>
 <ul>
-<li>a home or business address in Canada of the recipient</li>
-<li>where the supplier obtains more than one home or business address in Canada of the recipient, the home or business address that is most closely connected with the supply</li>
-<li>where the supplier does not obtain a home or business address in Canada of the recipient, another Canadian address of the recipient that is most closely connected with the supply, the supply will be regarded as made in the province in which the particular address is situated</li>
+<li class="bullet">a home or business address in Canada of the recipient</li>
+<li class="bullet">where the supplier obtains more than one home or business address in Canada of the recipient, the home or business address that is most closely connected with the supply</li>
+<li class="bullet">where the supplier does not obtain a home or business address in Canada of the recipient, another Canadian address of the recipient that is most closely connected with the supply, the supply will be regarded as made in the province in which the particular address is situated</li>
 </ul>
 
 
@@ -1427,8 +1423,8 @@ GST/HST and place of supply rules</h1>
 <p><strong>Single final recipient</strong></p>
 <p>If there is to be a single final recipient of a supply of a computer-related service or Internet access made by a particular supplier, and the recipient acquires the supply under an agreement with either the supplier or another supplier, the supply is made in a province if the final recipient avails itself of the service or access at a single ordinary location in that province, and <strong>either</strong>:</p>
 <ul>
-<li>the particular supplier maintains information sufficient to determine that location</li>
-<li>it is the normal business practice of the particular supplier to obtain information sufficient to determine that location</li>
+<li class="bullet">the particular supplier maintains information sufficient to determine that location</li>
+<li class="bullet">it is the normal business practice of the particular supplier to obtain information sufficient to determine that location</li>
 </ul>
 <p>In any other case where there is to be a single final recipient of the supply, the supply will be made in a province if the mailing address of the recipient of the supply is in that province.</p>
 
@@ -1465,8 +1461,8 @@ GST/HST and place of supply rules</h1>
         <p><strong>Multiple final recipients</strong></p>
 <p>A different place of supply rule applies if there are to be multiple final recipients of a supply of a computer-related service or Internet access made by a particular supplier and each final recipient acquires the supply under an agreement with either the particular supplier or another supplier and, in the case of each final recipient, there is a single location at which the final recipient uses the service or access and:</p>
 <ul>
-<li>either the particular supplier maintains information sufficient to determine that location</li>
-<li>it is the normal business practice of the particular supplier to obtain information sufficient to determine that location</li>
+<li class="bullet">either the particular supplier maintains information sufficient to determine that location</li>
+<li class="bullet">it is the normal business practice of the particular supplier to obtain information sufficient to determine that location</li>
 </ul>
 <p>In this case, the supply of the computer-related service is made in the province, if any, that will be determined under the place of supply rules for services if the service were performed in each province in which, and to the same extent to which, the final recipients use the service. The supply of Internet access is made in the province that will be determined under the place of supply rules for intangible personal property (IPP) if the Internet access were accessible in each province in which, and to the same extent to which, the final recipients use the Internet access. In other words, the relevant place of supply rules are to be applied to the supply of a computer-related service as a supply of a service and to the supply of Internet access as a supply of IPP.</p>
 <p>In any other case where there are to be multiple final recipients of the supply, the supply of the computer-related service or Internet access will be made in a province if the mailing address of the recipient is in that province.</p>
@@ -1521,9 +1517,9 @@ GST/HST and place of supply rules</h1>
 <p>However, the supply of a customs brokerage service for imported non-commercial goods is made in a participating province if the provincial part of the HST is imposed on the importation of the goods at the rate for the participating province or will be imposed if various provisions did not apply to relieve certain types of importations from the imposition of the provincial part of the HST.</p>
 <p>Relieving provisions apply to:</p>
 <ul>
-<li>imported goods accounted for as commercial goods, imported specified motor vehicles or imported <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#mobile">mobile homes</a> or <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#floating">floating homes</a> that have been used or occupied in Canada by any individual</li>
-<li>certain goods imported by or on behalf of persons who are resident in the Nova Scotia offshore area or the Newfoundland offshore area</li>
-<li>imported goods that qualify as non-taxable importations from the imposition of the GST or federal part of the HST</li>
+<li class="bullet">imported goods accounted for as commercial goods, imported specified motor vehicles or imported <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#mobile">mobile homes</a> or <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#floating">floating homes</a> that have been used or occupied in Canada by any individual</li>
+<li class="bullet">certain goods imported by or on behalf of persons who are resident in the Nova Scotia offshore area or the Newfoundland offshore area</li>
+<li class="bullet">imported goods that qualify as non-taxable importations from the imposition of the GST or federal part of the HST</li>
 </ul>
 <p>In any other case, the supply of the customs brokerage service is made in a non-participating province.</p>
 <p>The above rules do not apply to the supply of any service provided in relation to an objection, appeal, re-determination, re-appraisal, review, refund, abatement, remission or drawback, or in relation to a request for any of the foregoing.</p>
@@ -1602,8 +1598,8 @@ GST/HST and place of supply rules</h1>
 <p>A supply of a passenger transportation service that is part of a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#journey">continuous journey</a> is made in a province if the origin is a place in the province and the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#termination">termination</a>, and all <a href="/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#stopover">stopovers</a>, for the continuous journey are in Canada. There is no change to this place of supply rule. This applies where the ticket or voucher issued for the first passenger transportation service provided in the continuous journey specifies the <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#origin">origin</a> of the continuous journey. Furthermore, if the origin of the continuous journey is specified in the ticket or voucher that is issued for the first passenger transportation service provided in the continuous journey, but there is a termination or stopover outside Canada for the continuous journey, the supply of the passenger transportation service will continue to be considered made in a non-participating province.</p>
 <p>A supply of a passenger transportation service that is part of a continuous journey for which the ticket or voucher issued for the first passenger transportation service provided in the continuous journey does not specify the origin of the continuous journey, is currently considered to be made in a province if the place of negotiation of the supply is in the province. This rule is eliminated. Instead, under the new rule, a supply of a passenger transportation service is made in the province in which the passenger transportation service originates, where the supply:</p>
 <ul>
-<li>is part of a continuous journey for which the ticket or voucher issued for the first passenger transportation service provided in the continuous journey does not specify the origin of the continuous journey</li>
-<li>is not part of a continuous journey</li>
+<li class="bullet">is part of a continuous journey for which the ticket or voucher issued for the first passenger transportation service provided in the continuous journey does not specify the origin of the continuous journey</li>
+<li class="bullet">is not part of a continuous journey</li>
 </ul>
 
 
@@ -1829,8 +1825,8 @@ GST/HST and place of supply rules</h1>
 <p>There are no changes to the place of supply rules that apply to postage and mail delivery services. A supply of a right to a mail delivery service as evidenced by a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#stamp">postage stamp</a> or a postage-paid card, package or similar item (other than an item bearing a &quot;business reply&quot; indicia) that is authorized by the Canada Post Corporation is made in the province in which the supplier delivers the stamp or item to the recipient.</p>
 <p>The supply of a mail delivery service for which the postage stamp or similar item is used as evidence of the payment of postage for the mail delivery service is made in the province in which the stamp or item is delivered. However, this rule does not apply in circumstances where:</p>
 <ul>
-<li>the supply of the service is made under a bill of lading</li>
-<li>the amount for the supply of the service is $5 or more and the address to which the mail is sent is not in a participating province</li>
+<li class="bullet">the supply of the service is made under a bill of lading</li>
+<li class="bullet">the amount for the supply of the service is $5 or more and the address to which the mail is sent is not in a participating province</li>
 </ul>
 <p>In both of these circumstances, the place of supply rules as explained in freight transportation services determines the place of supply of the mail delivery service. As a result, the place of supply of the mail delivery service in these circumstances is based on the destination of the mail delivery service.</p>
 <p>There is a separate place of supply rule that applies to goods delivered to which the mail delivery service relates. For more information, see <a href="#goods">Place of supply rules for goods</a>.</p>
@@ -1970,14 +1966,14 @@ GST/HST and place of supply rules</h1>
         <h5 id="repairs">Repairs, maintenance, and photographic-related goods</h5>
 <p>There are no changes to the place of supply rule that applies where a supplier receives property of another person for the purpose of <strong>either</strong>:</p>
 <ul>
-<li>supplying a service of repairing, maintaining, cleaning, adjusting or altering the property</li>
-<li>producing a negative, transparency, photographic print or other photographic-related good</li>
+<li class="bullet">supplying a service of repairing, maintaining, cleaning, adjusting or altering the property</li>
+<li class="bullet">producing a negative, transparency, photographic print or other photographic-related good</li>
 </ul>
 <p>In this case, the supply of the service (and of any property supplied in connection with it) or of the photographic-related good is made in a province if the supplier delivers the property or the photographic-related good, as the case may be, in that province to the recipient of the supply after the service or production of the photographic-related good is completed. This place of supply rule will override the place of supply rule for supplies of services in relation to goods and the place of supply rule for supplies of goods.</p>
 <p>For purposes of this rule, property is considered to be delivered in a particular province, and not in any other province, if the supplier <strong>either</strong>:</p>
 <ul>
-<li>ships the property to a destination in the province that is specified in the contract for carriage of the good or transfers possession of the property to a common carrier or consignee that the supplier has retained on behalf of the recipient to ship the property to such a destination</li>
-<li>sends the property by mail or courier to an address in the particular province</li>
+<li class="bullet">ships the property to a destination in the province that is specified in the contract for carriage of the good or transfers possession of the property to a common carrier or consignee that the supplier has retained on behalf of the recipient to ship the property to such a destination</li>
+<li class="bullet">sends the property by mail or courier to an address in the particular province</li>
 </ul>
 
 
@@ -2225,15 +2221,15 @@ GST/HST and place of supply rules</h1>
 
         <p>The supply of the service in relation to the property is considered to be made in a non-participating province following certain conditions:</p>
 <ul>
-<li>the property situated in one or more provinces at the time the Canadian element of the service begins to be performed</li>
-<li>it remains situated in that province or those provinces, as the case may be, while the Canadian element of the service performed is situated otherwise than primarily (50% or less) in participating provinces when the Canadian element of the service is performed, the supply of the service in relation to the property is made in a non-participating province</li>
+<li class="bullet">the property situated in one or more provinces at the time the Canadian element of the service begins to be performed</li>
+<li class="bullet">it remains situated in that province or those provinces, as the case may be, while the Canadian element of the service performed is situated otherwise than primarily (50% or less) in participating provinces when the Canadian element of the service is performed, the supply of the service in relation to the property is made in a non-participating province</li>
 </ul>
 <p><strong>Property not remaining in same provinces while service is performed</strong></p>
 <p>A supply of a service in relation to property that is situated in one or more provinces at the time the Canadian element of the service begins to be performed and that does not remain situated in that province or those provinces, as the case may be, while the Canadian element of the service is performed will be considered as having been made in a participating province if:</p>
 <ul>
-<li>the property is situated primarily in participating provinces at any time the Canadian element of the service is performed</li>
-<li>the service is performed primarily in participating provinces</li>
-<li>the greatest proportion of the performance of the service, which is performed in the participating provinces, is performed in that participating province</li>
+<li class="bullet">the property is situated primarily in participating provinces at any time the Canadian element of the service is performed</li>
+<li class="bullet">the service is performed primarily in participating provinces</li>
+<li class="bullet">the greatest proportion of the performance of the service, which is performed in the participating provinces, is performed in that participating province</li>
 </ul>
 
 
@@ -2314,11 +2310,11 @@ GST/HST and place of supply rules</h1>
 <p>A supply of a service for a trust governed by an RRSP, an RRIF or an RESP provided by a trustee of the trust is made in a particular province if the mailing address of the annuitant of the RRSP or RRIF or of the subscriber of the RESP is in that province. This rule is extended to services of a trustee for trusts governed by similar plans including TFSA and RDSP.</p>
 <p>For purposes of this place of supply rule, the following are as defined in subsection 248(1) of the <em>Income Tax Act</em>:</p>
 <ul>
-<li>RRSP means a registered retirement savings plan</li>
-<li>RRIF means a registered retirement income fund</li>
-<li>RESP means a registered education savings plan</li>
-<li>TFSA means a tax free savings account</li>
-<li>RDSP means a registered disability savings plan</li>
+<li class="bullet">RRSP means a registered retirement savings plan</li>
+<li class="bullet">RRIF means a registered retirement income fund</li>
+<li class="bullet">RESP means a registered education savings plan</li>
+<li class="bullet">TFSA means a tax free savings account</li>
+<li class="bullet">RDSP means a registered disability savings plan</li>
 </ul>
 
 
@@ -2423,14 +2419,14 @@ GST/HST and place of supply rules</h1>
 <p><strong>Telecommunication service</strong></p>
 <p>A supply of a telecommunication service of making telecommunications facilities available (other than a service of granting sole access to a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#channel">telecommunications channel</a>) is made in a province if:</p>
 <ul>
-<li>all of the facilities are ordinarily located in that province</li>
-<li>where not all of the facilities are ordinarily located in the province, the invoice for the supply is sent to an address in that province</li>
+<li class="bullet">all of the facilities are ordinarily located in that province</li>
+<li class="bullet">where not all of the facilities are ordinarily located in the province, the invoice for the supply is sent to an address in that province</li>
 </ul>
 <p>For other types of supplies of telecommunication services (other than a service of granting sole access to a telecommunications channel), the supply is made in a province if the telecommunication:</p>
 <ul>
-<li>is both emitted and received in that province</li>
-<li>is either emitted or received in that province and the billing location for the service is located in that province</li>
-<li>is emitted in the province and received outside the province and the billing location for the service is not in a province where the telecommunication is emitted or received</li>
+<li class="bullet">is both emitted and received in that province</li>
+<li class="bullet">is either emitted or received in that province and the billing location for the service is located in that province</li>
+<li class="bullet">is emitted in the province and received outside the province and the billing location for the service is not in a province where the telecommunication is emitted or received</li>
 </ul>
 
 
@@ -2514,9 +2510,9 @@ GST/HST and place of supply rules</h1>
 
 
 </div>
-<div class="mwsbodytext text parbase section">
 
 
+<div class="col-md-8">
 
         <h2 id="selfassess">Find out if&nbsp;you have&nbsp;to pay the provincial part of the HST for property and services brought into a participating province</h2>
 <p>You may have to self-assess (pay) the provincial part of the HST if you buy goods, services or intangible personal properties (IPP) in a non-participating province, but you use, consume, or supply them within the participating provinces. You may also have to self-assess if you use, consume, or supply goods, services or IPP in a participating province with a <strong>higher</strong> HST rate than the participating province where you acquired them.</p>
@@ -2524,36 +2520,30 @@ GST/HST and place of supply rules</h1>
 <p>This <strong>does not </strong>apply to motor vehicles required to be registered in a participating province and to persons using simplified accounting.</p>
 <p>Use the following sections to determine if you need to self-assess on:</p>
 <ul>
-<li><a href="#goodsnotmotor">Goods&nbsp;(<strong>does not</strong> include motor vehicles)</a></li>
-<li><a href="#intangiblepers">Intangible personal property and services</a></li>
-<li><a href="#motorvehicles">Motor vehicles</a></li>
+<li class="bullet"><a href="#goodsnotmotor">Goods&nbsp;(<strong>does not</strong> include motor vehicles)</a></li>
+<li class="bullet"><a href="#intangiblepers">Intangible personal property and services</a></li>
+<li class="bullet"><a href="#motorvehicles">Motor vehicles</a></li>
 </ul>
 
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
         <h3 id="goodsnotmotor">Goods (<strong>does not</strong> include motor vehicles)</h3>
 <p>You have to self-assess the provincial part of the HST when:</p>
 <ul>
-<li>you buy taxable (other than zero-rated) goods:<ul>
-<li>in a non-participating province and you later bring, or cause someone else to bring, the goods into a participating province</li>
-<li>in a participating province and you later bring, or cause someone else to bring, the goods into another participating province for which the rate of HST is <strong>higher</strong></li>
+<li class="bullet">you buy taxable (other than zero-rated) goods:<ul>
+<li class="bullet">in a non-participating province and you later bring, or cause someone else to bring, the goods into a participating province</li>
+<li class="bullet">in a participating province and you later bring, or cause someone else to bring, the goods into another participating province for which the rate of HST is <strong>higher</strong></li>
 </ul>
 </li>
-<li>you consume, use, or supply the goods less than 90% in your <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#commercial">commercial activities</a></li>
+<li class="bullet">you consume, use, or supply the goods less than 90% in your <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#commercial">commercial activities</a></li>
 </ul>
 <p>You <strong>do not </strong>have to self-assess the provincial part of the HST if you are a <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/definitions-gst-hst.html#registrant">registrant</a> and the property is consumed, used, or supplied at least 90% in your commercial activities.</p>
 
-
-
-
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
@@ -2562,23 +2552,17 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
-
 
 
         <ul>
-<li>the amount paid or payable for the goods</li>
-<li>the fair market value (FMV)&nbsp;of the goods when they are brought into a participating province</li>
+<li class="bullet">the amount paid or payable for the goods</li>
+<li class="bullet">the fair market value (FMV)&nbsp;of the goods when they are brought into a participating province</li>
 </ul>
 <p>If you purchased goods (other than a motor vehicle) from someone with whom you are not dealing at arm's length, you have to remit the provincial part of the HST on the FMV of the goods when they are brought into a participating province.</p>
 <p>For more information, see <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/gst489.html">Form GST489, Return for Self-Assessment of the Provincial Part of Harmonized Sales Tax (HST)</a>.</p>
 
 
 
-
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
@@ -2587,8 +2571,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -2596,8 +2579,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -2606,8 +2588,7 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
+
 
 
 
@@ -2616,8 +2597,6 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
@@ -2626,16 +2605,14 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
         <h3 id="motorvehicles">Motor vehicles</h3>
 <p>For motor vehicles that require registration under the laws of a participating province, the tax is payable to the Receiver General, but collected by the provincial licensing authorities on the <strong>earlier</strong> of:</p>
 <ul>
-<li>the day you register the vehicle in the participating province</li>
-<li>the day on or before which you have to register the vehicle</li>
+<li class="bullet">the day you register the vehicle in the participating province</li>
+<li class="bullet">the day on or before which you have to register the vehicle</li>
 </ul>
 <p>A specified motor vehicle is defined to mean a vehicle that is, or that would be, if it were imported, classified under several tariff items in Schedule I to the Customs Tariff. Generally, this includes almost all motor vehicles, other than racing cars classified under heading number 87.03, and any prescribed motor vehicles.</p>
 <p>For more information, see <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/specific-sectors/gst-hst-specific-situations/gst-hst-motor-vehicles.html#saleregistrant">Find out how&nbsp;the GST/HST applies to a sale of a specified motor vehicle from a GST/HST registrant.</a></p>
@@ -2643,35 +2620,30 @@ GST/HST and place of supply rules</h1>
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
-
 
 
         <h2 id="recover">Find out if you can&nbsp;recover&nbsp;the provincial part of the HST for&nbsp;property and services brought into a non-participating province or into a participating province with a lower HST rate</h2>
 <p>You may be eligible for a rebate of the provincial part of the HST you paid on property and services brought into a non-participating province, or into another participating province for which the rate for the provincial part of the HST is lower.</p>
 <p>To determine if you can recover the provincial part of the HST for:</p>
 <ul>
-<li>goods (<strong>does not</strong> include motor vehicles), see <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/gst495.html">Form GST495, Rebate Application for Provincial Part of Harmonized Sales Tax (HST)</a></li>
-<li>intangible personal property and services, see <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/gst-hst-rebates/general-gst-hst-rebate-application.html#Code13">Reason code 13 – Intangible personal property or services acquired in a participating province</a></li>
-<li>motor vehicles, see&nbsp;<a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/specific-sectors/gst-hst-specific-situations/gst-hst-motor-vehicles.html#saleregistrant">Find out how&nbsp;the GST/HST applies to a sale of a specified motor vehicle from a GST/HST registrant</a></li>
+<li class="bullet">goods (<strong>does not</strong> include motor vehicles), see <a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/forms/gst495.html">Form GST495, Rebate Application for Provincial Part of Harmonized Sales Tax (HST)</a></li>
+<li class="bullet">intangible personal property and services, see <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/gst-hst-rebates/general-gst-hst-rebate-application.html#Code13">Reason code 13 – Intangible personal property or services acquired in a participating province</a></li>
+<li class="bullet">motor vehicles, see&nbsp;<a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/specific-sectors/gst-hst-specific-situations/gst-hst-motor-vehicles.html#saleregistrant">Find out how&nbsp;the GST/HST applies to a sale of a specified motor vehicle from a GST/HST registrant</a></li>
 </ul>
 
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
         <h2>Related&nbsp;publication</h2>
 <ul>
-<li><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/b-103.html">GST/HST Technical Information Bulletin B-103, Harmonized Sales Tax – Place of supply rules for determining whether a supply is made in a province</a></li>
+<li class="bullet"><a href="https://www.canada.ca/en/revenue-agency/services/forms-publications/publications/b-103.html">GST/HST Technical Information Bulletin B-103, Harmonized Sales Tax – Place of supply rules for determining whether a supply is made in a province</a></li>
 </ul>
 
 
-
+</div>
 
 </div>
 
