@@ -12,6 +12,7 @@
 <!--[if gte IE 9 | !IE ]><!-->
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/custom.css">
 <!--<![endif]-->
 <!--[if lt IE 9]>
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
@@ -88,7 +89,7 @@
   }
 
   </style>
-  
+
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
 <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
@@ -122,9 +123,9 @@
 </div>
 </nav>
 <nav role="navigation" id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href='../../index-en.html'>Home</a></li>
-<li>...</li>
-<li><a href='index-en.html'>GST/HST</a></li>
+<li class="cust-breadcrumb"><a href='../../index-en.html'>Home</a></li>
+<li class="cust-breadcrumb">...</li>
+<li class="cust-breadcrumb"><a href='index-en.html'>GST/HST</a></li>
 </ol></div></div></nav>
 
 </header>
@@ -143,36 +144,36 @@
 <ul class="toc lst-spcd col-md-12">
 <li class="col-md-4 col-sm-6"><a class="list-group-item" href="return-1-en.html">1. When to file</a></li>
 <li class="col-md-4 col-sm-6"><a class="list-group-item" href="return-2-en.html">2. Calculate the net tax</a></li>
-<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item active" href="return-3-en.html">3. Complete and file the return</a></li>
+<li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item cust-active active" href="return-3-en.html">3. Complete and file the return</a></li>
 <li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="return-4-en.html">4. After you file</a></li>
 </ul>
 </div>
 </div>
 <div class="row">
-<section class="col-md-11">
+<section class="col-md-8">
 <h2>Complete and file the return</h2>
 	<p> You can file the GST/HST return for your business electronically, by TELEFILE, or on paper.</p>
 	<p>Before you choose a method, you must determine <a href="./methods-en.html">if you are required to file online</a> and which online method you can use.</p>
 
 	<p>To help you prepare your GST/HST return, use the <a href="https://www.canada.ca/content/dam/cra-arc/migration/cra-arc/tx/bsnss/tpcs/gst-tps/bspsbch/rtrns/wrkngcp-eng.pdf">GST/HST Return Working Copy</a> and keep it for your own records. The working copy lets you calculate amounts and ensure that everything is correct before completing your personalized return.</p>
-	
+
 	<p><a href="./instructions-complete-return-en.html">Instructions for completing a GST/HST return</a> provides detailed instructions for how to complete each line of your return.</p>
 
 	<h3>NETFILE</h3>
 		<p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/gst-hst-netfile.html">GST/HST NETFILE</a> is an Internet-based filing service that allows registrants to file their goods and services tax/ harmonized sales tax (GST/HST) returns and eligible rebates directly to the Canada Revenue Agency (CRA) over the Internet.</p>
-	
+
 <h3>My Business Account</h3>
 	<p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/business-account.html">My Business Account</a> is a secure online portal that provides an opportunity to interact electronically with the CRA on various business accounts. Business accounts include GST/HST (except for GST/HST accounts administered by Revenu Québec), payroll, corporation income taxes, excise taxes, excise duties, and more.</p>
-	
+
 <h3>Represent a Client</h3>
 	<p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/represent-a-client.html">Represent a Client</a> is a service that provides you with secure and controlled online access to both individual and business tax information.</p>
-		
+
 <h3>Electronic Data Interchange (EDI)</h3>
 	<p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/gst-hst-filing-remitting.html">Electronic Data Interchange (EDI)</a> lets you pay the net tax you owe electronically through a participating Canadian financial institution.</p>
-		
+
 <h3>GST/HST TELEFILE</h3>
 	<p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/gst-hst-telefile.html">GST/HST TELEFILE</a> is a fast, free, and easy-to-use filing option that lets qualifying registrants file their GST/HST returns in a matter of minutes using their touch-tone telephone and a toll-free number.</p>
-		
+
 <h3>GST/HST Internet File Transfer</h3>
 	<p><a href="https://www.canada.ca/en/revenue-agency/services/e-services/e-services-businesses/gst-hst-internet-file-transfer.html">GST/HST Internet File Transfer</a> is an Internet-based filing service that allows eligible registrants to file their GST/HST returns directly to the Canada Revenue Agency (CRA) over the Internet using their third-party accounting software.</p>
 
@@ -827,6 +828,9 @@ Summerside PE C1N 6A2</strong></p>
 <p><strong>Line 105</strong> will be <strong>automatically calculated</strong> when you select the <strong>Calculate</strong> button at the bottom of <span class="nowrap">Schedule C</span>. In most cases, <span class="nowrap"><strong>line 105</strong></span> will not be affected by the reconciliation of input tax credits.</p>
 <h3 id="Line 108-2 Schedule C">Line 108 – Total ITCs and adjustments (after&#160;RITC reconciliation)</h3>
 <p><strong>Line 108</strong> after RITC reconciliation will be <strong>automatically calculated</strong> when you select the <strong>Calculate</strong> button at the bottom of <span class="nowrap">Schedule C</span>. This amount will equal <span class="nowrap"><strong>line 108</strong></span> before RITC reconciliation less <span class="nowrap"><strong>line 116</strong></span>.</p>!-->
+
+</div>
+</div>
 
 <nav role="navigation" class="mrgn-bttm-lg">
 <h3 class="wb-inv">Document navigation</h3>

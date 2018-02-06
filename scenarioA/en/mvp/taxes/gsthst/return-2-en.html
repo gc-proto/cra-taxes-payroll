@@ -12,6 +12,7 @@
 <!--[if gte IE 9 | !IE ]><!-->
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/custom.css">
 <!--<![endif]-->
 <!--[if lt IE 9]>
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
@@ -88,7 +89,7 @@
   }
 
   </style>
-  
+
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
 <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
@@ -122,9 +123,9 @@
 </div>
 </nav>
 <nav role="navigation" id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href='../../index-en.html'>Home</a></li>
-<li>...</li>
-<li><a href='index-en.html'>GST/HST</a></li>
+<li class="cust-breadcrumb"><a href='../../index-en.html'>Home</a></li>
+<li class="cust-breadcrumb">...</li>
+<li class="cust-breadcrumb"><a href='index-en.html'>GST/HST</a></li>
 </ol></div></div></nav>
 
 </header>
@@ -142,17 +143,19 @@
 <div class="row">
 <ul class="toc lst-spcd col-md-12">
 <li class="col-md-4 col-sm-6"><a class="list-group-item" href="return-1-en.html">1. When to file</a></li>
-<li class="col-md-4 col-sm-6"><a class="list-group-item active" href="return-2-en.html">2. Calculate the net tax</a></li>
+<li class="col-md-4 col-sm-6"><a class="list-group-item cust-active active" href="return-2-en.html">2. Calculate the net tax</a></li>
 <li class="col-md-4 col-sm-6 clr-lft-sm"><a class="list-group-item" href="return-3-en.html">3. Complete and file the return</a></li>
 <li class="col-md-4 col-sm-6 clr-lft-md clr-lft-lg"><a class="list-group-item" href="return-4-en.html">4. After you file</a></li>
 </ul>
 </div>
 </div>
-<div class="row">
-<section class="col-md-11">
+<div class="">
+<section class="col-md-8">
 
 <h2 id="clclt">Methods for calculating your net tax</h2>
 <p>Depending on your business you may have to use a different method to calculate your net tax. Use the following sections to know how to calculate.</p>
+
+</div>
 
 <div class="wb-tabs">
 <div class="tabpanels">
@@ -361,12 +364,15 @@ In addition, you can claim a <a href="http://www.cra-arc.gc.ca/tx/bsnss/tpcs/gst
 </details>
 </div>
 </div>
+
+<div class="col-md-8">
 <h2 id="wht">What to include in your return</h2>
 <h3 id="chgdntcllctd">If you have charged the GST/HST and&#160;you have not collected it yet</h3>
-<p>You are liable for the GST/HST you charged on&#160;goods or services on the day you receive the payment or on&#160;the day the payment is due, whichever&#160;is earlier.&#160;We usually consider payment to be due on the date you issue an <a href="http://www.cra-arc.gc.ca/tx/bsnss/tpcs/gst-tps/bspsbch/itc-cti/menu-eng.html#dcmts_rqrd">invoice</a> or the date specified in an agreement, whichever&#160;comes first.</p>
+<p>You are liable for the GST/HST you charged on&#160;goods or services on the day you receive the payment or on&#160;the day the payment is due, whichever&#160;is earlier.&#160;We usually consider payment to be due on the date you issue an invoice or the date specified in an agreement, whichever&#160;comes first.</p>
 <p>If you issue an invoice before you receive the payment, you have to include the GST/HST charged on this invoice in the reporting period that includes the date of the invoice.&#160;&#160;&#160;</p>
+<ul><li><a href="./input-tax-credits.html#dcmts_rqrd">Records you need to support your claim</li></ul></a>
 <h3 id="nvrpd">If you have charged the GST/HST and&#160;you were&#160;never paid for it</h3>
-<p>You may have already included the GST/HST on a credit sale on your GST/HST return, sent any outstanding net tax, and took reasonable steps to collect the debt. However,&#160;that sale became in whole or in part a bad debt. If this is your situation, you may be eligible to recover the GST/HST as a tax adjustment on your line 105 calculation if you are filing electronically or on line 104 if you are filing a paper GST/HST return. For more information, see <a href="http://www.cra-arc.gc.ca/tx/bsnss/tpcs/gst-tps/bspsbch/rtrns/djstmnts/menu-eng.html#Bd-dbt">How do you report bad debts and bad debt adjustments?</a></p>
+<p>You may have already included the GST/HST on a credit sale on your GST/HST return, sent any outstanding net tax, and took reasonable steps to collect the debt. However,&#160;that sale became in whole or in part a bad debt. If this is your situation, you may be eligible to recover the GST/HST as a tax adjustment on your line 105 calculation if you are filing electronically or on line 104 if you are filing a paper GST/HST return.</p><p> For more information:</p><ul><li> <a href="http://www.cra-arc.gc.ca/tx/bsnss/tpcs/gst-tps/bspsbch/rtrns/djstmnts/menu-eng.html#Bd-dbt">How to correct bad debt adjustments</a></li></ul>
 <h3 id="ntchgdwnspp">If you didn’t charge the GST/HST when&#160;you were supposed to</h3>
 <p>If you are required to charge the GST/HST, but did not charge it, you are still liable for the tax.</p>
 <p>You have to include the GST/HST that you should have charged in the reporting period during which you should have charged the tax.</p>
@@ -431,7 +437,8 @@ The total GST to be remitted is the sum of the result of <span class="nowrap">st
 	<li><a href="/E/pbg/gf/gst488/README.html">Form GST488, Election or Revocation of an Election Not To Use the Net Tax Calculation for Charities</a></li>
 </ul>
 
-
+</div>
+<div class="clearfix"></div>
 <nav role="navigation" class="mrgn-bttm-lg">
 <h3 class="wb-inv">Document navigation</h3>
 <ul class="pager">
