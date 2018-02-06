@@ -12,6 +12,8 @@
 <!--[if gte IE 9 | !IE ]><!-->
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="icon" type="image/x-icon">
 <link rel="stylesheet" href="https://www.canada.ca/etc/designs/canada/wet-boew/css/theme.min.css">
+<link rel="stylesheet" type="text/css" href="../../css/custom.css">
+
 <!--<![endif]-->
 <!--[if lt IE 9]>
 <link href="https://www.canada.ca/etc/designs/canada/wet-boew/assets/favicon.ico" rel="shortcut icon" />
@@ -85,7 +87,7 @@
   }
 
   </style>
-  
+
 <div class="form-group">
 <label for="wb-srch-q" class="wb-inv">Search website</label>
 <input id="wb-srch-q" list="wb-srch-q-ac" class="wb-srch-q form-control" name="q" type="search" value="" size="27" maxlength="150" placeholder="Search Canada.ca">
@@ -119,9 +121,9 @@
 </div>
 </nav>
 <nav role="navigation" id="wb-bc" property="breadcrumb"><h2 class="wb-inv">You are here:</h2><div class="container"><div class="row"><ol class="breadcrumb">
-<li><a href='../../index-en.html'>Home</a></li>
-<li>...</li>
-<li><a href='index-en.html'>GST/HST</a></li>
+<li class="cust-breadcrumb"><a href='../../index-en.html'>Home</a></li>
+<li class="cust-breadcrumb">...</li>
+<li class="cust-breadcrumb"><a href='index-en.html'>GST/HST</a></li>
 </ol></div></div></nav>
 
 </header>
@@ -133,18 +135,19 @@
     <main role="main" property="mainContentOfPage" class="container">
 <h1 property="name" id="wb-cont">Select a GST/HST filing method</h1>
 
+<div class="mwsbodytext text parbase section col-md-8">
  <p>Before you choose a method, you <strong>have </strong>to determine:</p>  <ul>
- <li><a href="#rqrd">if you are required to file online</a></li>
- <li><a href="#mtdzz">which online method you can use</a></li>
+ <li class="bullet"><a href="#rqrd">if you are required to file online</a></li>
+ <li class="bullet"><a href="#mtdzz">which online method you can use</a></li>
 </ul>  <p><span lang="EN">To help you prepare your electronic GST/HST return, use the </span><span lang="EN"><a href="https://www.canada.ca/content/dam/cra-arc/migration/cra-arc/tx/bsnss/tpcs/gst-tps/bspsbch/rtrns/wrkngcp-eng.pdf">GST/HST Return Working Copy</a><span> </span>and keep a copy for your own records</span><span lang="EN">.</span><span lang="EN"> </span></p>  <p>You can also&nbsp;file:</p>  <ul>
- <li>in person at&nbsp;a participating&nbsp;financial institution</li>
- <li>by mail by sending your paper GST/HST return (GST34-2 or GST62) to the address on the return</li>
+ <li class="bullet">in person at&nbsp;a participating&nbsp;financial institution</li>
+ <li class="bullet">by mail by sending your paper GST/HST return (GST34-2 or GST62) to the address on the return</li>
 </ul>
 
-	    <p>For more information, see <a href="./return-3-en.html">Complete and file a return</a>.</p>
+	    <p>For more information:</p><ul><li><a href="./return-3-en.html">Complete and file a return</a></li></ul>
 
-</div>
-<div class="mwsbodytext text parbase section">
+
+
 
 
 
@@ -153,12 +156,10 @@
 
 
 
+
+
+
 </div>
-<div class="table-wet-example table parbase section">
-
-
-
-
 
 
 <link rel="stylesheet" href="/etc/clientlibs/accessibility/frontend.min.css" type="text/css">
@@ -197,9 +198,8 @@
 
    </div>
 
-</div>
-<div class="mwsbodytext text parbase section">
 
+<div class="col-md-8">
 
 
         <p>If your situation is listed above&nbsp;and you are a selected listed financial institution, you are not required to file your GST/HST returns online.</p>
@@ -207,38 +207,18 @@
 
 
 
-
 </div>
-<div class="mwsbodytext text parbase section">
+<div class="clearfix"></div>
 
-
-
+<div class="col-md-8">
         <h3 id="mtdzz">Determine the&nbsp;filing method&nbsp;you can use online</h3>
  <p lang="en-CA">Use the appropriate chart&nbsp;to determine which electronic filing method is&nbsp;available to you.</p>
-
-
-
-</div>
-<div class="mwsaccordion-html section">
-
-
-
 
 
 
     <details>
         <summary>Chart 1 - Builders (including builders that are charities)</summary>
         <div class="table-wet-example table parbase section">
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -332,7 +312,7 @@
 
 
 
-</div>
+
 <div class="mwsaccordion-html section">
 
 
@@ -398,25 +378,17 @@
 
 
 
-</div>
-<div class="mwsbodytext text parbase section">
-
-
-
         <h2 id="paymentdead">When to file GST/HST returns</h2>
 <p><span lang="en-CA">The personalized GST/HST return (Form GST34-2) will show the due date at t</span><span lang="en-US">he top of the form. </span>The due date of your return is determined by your <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/register-a-gst-hst-account.html#details-panel2b">reporting period</a>. We can charge <a href="https://www.canada.ca/en/revenue-agency/services/tax/businesses/topics/gst-hst-businesses/gst-account/file-a-gst-hst-return/gst-hst-penalties-interest.html">penalties and interest</a> on any returns or amounts we have not received by the due date. If you are <a href="./close-a-gst-hst-account.html">closing&nbsp;a GST/HST account</a>, you need to file a final return.</p>
 <p>You <strong>have to file</strong> a GST/HST return even if you have:</p>
 <ul>
-<li>no business transactions</li>
-<li>no net tax to remit</li>
+<li class="bullet">no business transactions</li>
+<li class="bullet">no net tax to remit</li>
 </ul>
 <p>When a due date falls on a <strong>Saturday</strong>, a <strong>Sunday</strong>, or a <a href="/en/revenue-agency/services/tax/public-holidays.html">public holiday recognized by the CRA</a>,&nbsp;your payment is on time if we receive it on the <strong>next business day</strong><span lang="EN">.</span></p>
 
 
 
-
-</div>
-<div class="mwsbodytext text parbase section">
 
 
 
@@ -426,8 +398,21 @@
 
 
 </div>
+</div>
+<div class="clearfix"></div>
 
-
+<div class="row pagedetails">
+<div class="col-sm-6 col-lg-4 mrgn-tp-sm">
+<a href="https://www.canada.ca/en/report-problem.html" class="btn btn-default btn-block">Report a problem or mistake on this page</a>
+</div>
+<div class="col-sm-3 mrgn-tp-sm pull-right">
+<div class="wb-share" data-wb-share='{"lnkClass": "btn btn-default btn-block"}'></div>
+</div>
+<div class="datemod col-xs-12 mrgn-tp-lg">
+<dl id="wb-dtmd">
+<dt>Date modified:&#32;</dt>
+<dd><time property="dateModified">2016-02-22</time></dd>
+</dl>
 
 <p>&#160;</p>
 </main>
