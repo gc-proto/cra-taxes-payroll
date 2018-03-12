@@ -137,10 +137,7 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			<p>Do you or your organisation already have a GST/HST account?</p>
 			<ul>
 				<li data-wb-fieldflow='{"action": "removeClass", "source":"#question1button", "class": "hidden"}'>yes</a></li> <!--result-->
-				<li data-wb-fieldflow='[
-					{ "action": "append", "source":"#question2" },
-					{ "action": "addClass", "source":"#question1", "class": "hidden" }
-				]'>no</li>
+				<li data-wb-fieldflow='{ "action": "append", "source":"#question2" }'>no</li>
 			</ul>
 		</div>
 		
@@ -157,28 +154,34 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			<ul>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":".toggle1", "class": "hidden", "live": true },
-					{ "action": "removeClass", "source":"#result1", "class": "hidden", "live": true }
-				]'><a href="findout-exempt-en.html">real property</a></li>
+					{ "action": "removeClass", "source":"#result1", "class": "hidden", "live": true },
+					{"action": "removeClass", "source":"#question2button", "class": "hidden"}
+				]'>real property</a></li>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":".toggle2", "class": "hidden", "live": true },
-					{ "action": "removeClass", "source":"#result2", "class": "hidden", "live": true }
-				]'><a href="findout-exempt-en.html">health care services</a></li>
+					{ "action": "removeClass", "source":"#result2", "class": "hidden", "live": true },
+					{"action": "removeClass", "source":"#question2button", "class": "hidden"}
+				]'>health care services</a></li>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":".toggle3", "class": "hidden", "live": true },
-					{ "action": "removeClass", "source":"#result3", "class": "hidden", "live": true }
-				]'><a href="findout-exempt-en.html">educational services</a></li>
+					{ "action": "removeClass", "source":"#result3", "class": "hidden", "live": true },
+					{"action": "removeClass", "source":"#question2button", "class": "hidden"}
+				]'>educational services</a></li>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":".toggle4", "class": "hidden", "live": true },
-					{ "action": "removeClass", "source":"#result4", "class": "hidden", "live": true }
-				]'><a href="findout-exempt-en.html">child and personal care services</a></li>
+					{ "action": "removeClass", "source":"#result4", "class": "hidden", "live": true },
+					{"action": "removeClass", "source":"#question2button", "class": "hidden"}
+				]'>child and personal care services</a></li>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":".toggle5", "class": "hidden", "live": true },
-					{ "action": "removeClass", "source":"#result5", "class": "hidden", "live": true }
-				]'><a href="findout-exempt-en.html">legal aid services</a></li>
+					{ "action": "removeClass", "source":"#result5", "class": "hidden", "live": true },
+					{"action": "removeClass", "source":"#question2button", "class": "hidden"}
+				]'>legal aid services</a></li>
 				<li data-wb-fieldflow='[
 					{ "action": "removeClass", "source":".toggle6", "class": "hidden", "live": true },
-					{ "action": "removeClass", "source":"#result6", "class": "hidden", "live": true }
-				]'><a href="findout-exempt-en.html">financial services</a></li>
+					{ "action": "removeClass", "source":"#result6", "class": "hidden", "live": true },
+					{"action": "removeClass", "source":"#question2button", "class": "hidden"}
+				]'>financial services</a></li>
 				<li data-wb-fieldflow='[
 					{ "action": "addClass", "source":"#result1", "class": "hidden" },
 					{ "action": "addClass", "source":"#result2", "class": "hidden" },
@@ -186,10 +189,14 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 					{ "action": "addClass", "source":"#result4", "class": "hidden" },
 					{ "action": "addClass", "source":"#result5", "class": "hidden" },
 					{ "action": "addClass", "source":"#result6", "class": "hidden" },
-					{ "action": "append", "source":"#question3" }
+					{ "action": "append", "source":"#question3" },
+					{ "action": "addClass", "source":"#question2button", "class": "hidden" }
 				]'>other goods and services</li>
 			</ul>
 
+			
+			
+			
 		</div>
 		<div id="result1" class="hidden">
 			<section class="panel panel-default">
@@ -321,6 +328,9 @@ wet-boew.github.io/wet-boew/License-en.html / wet-boew.github.io/wet-boew/Licenc
 			</section> 
 		</div>
 
+		<div id="question2button" class="hidden" >
+			<a href="findout-exempt-en.html" class="btn btn-primary">Continue</a>
+		</div>
 
 		<div id="question3" class="wb-fieldflow-sub hidden" data-wb-fieldflow='{"renderas":"radio"}'>
 			<p>Are you or your organisation one of the following?</p>
